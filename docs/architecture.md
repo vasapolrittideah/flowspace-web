@@ -187,7 +187,7 @@ Required failure experiments:
 Keep these here until accepted; then create a focused ADR.
 
 - Route map, layout boundaries, and the exact public-page scope.
-- OpenAPI artifact publication, compatibility checks, and generation workflow.
+- OpenAPI artifact publication, compatibility checks, and generation workflow. The [Backend integration](backend-integration.md) lists the backend gaps that block it.
 - Browser session handling: login and signup screens, Google and GitHub login in the browser, token renewal, and session restoration after a reload. [ADR-0025](adr/0025-flowspace-identity-replaces-keycloak-for-browser-authentication.md) leaves these open, and persisting tokens or using cookies needs a record that supersedes [ADR-0007](adr/0007-authentication-tokens-stay-in-memory.md).
 - Approved Vercel preview origins.
 - CORS, Content Security Policy, and other security-header values per environment.
@@ -195,7 +195,7 @@ Keep these here until accepted; then create a focused ADR.
 - AlignUI source provenance and upstream-update convention.
 - Design workflow: where the Figma design of each feature lives, how a specification links to it, and a mapping from AlignUI components in Figma to `src/components/ui/` that tells agents which code component implements each design component.
 - Sentry filtering, sampling, retention, release naming, and source-map access.
-- Supported browser matrix and measurable accessibility and performance thresholds.
+- Supported browser matrix. [`CONSTRAINTS.md`](../CONSTRAINTS.md) sets the accessibility and performance thresholds.
 - CI gate ordering and which Playwright checks run before versus after preview deployment.
 
 ## Deferred

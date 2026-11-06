@@ -13,6 +13,8 @@ The repository has design documents but no application code yet. The browser cal
 | [Architecture](docs/architecture.md) | Frontend boundaries, browser behavior, API consistency, delivery, and learning evidence |
 | [Project structure](docs/project-structure.md) | Where code belongs and which dependency directions are allowed |
 | [Technology stack](docs/technology-stack.md) | Replaceable tools and the ADRs that they support |
+| [Backend integration](docs/backend-integration.md) | The API contract source, request rules, origins, and backend gaps |
+| [Constraints](CONSTRAINTS.md) | The quality bar that each change must meet |
 | [Architecture Decision Records](docs/adr/README.md) | Accepted decisions and their rationale |
 | [Repository instructions](AGENTS.md) | The Git workflow and the conventions for each kind of artifact |
 | [Glossary](GLOSSARY.md) | Terms with a project-specific meaning |

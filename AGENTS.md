@@ -1,6 +1,6 @@
 # Repository instructions
 
-Follow these repository instructions for every task. Before making changes, read [`GLOSSARY.md`](GLOSSARY.md) and the matching convention in the table below. For product, architecture, or implementation work, also read [`docs/architecture.md`](docs/architecture.md), [`docs/project-structure.md`](docs/project-structure.md), relevant [architecture decision records (ADRs)](docs/adr/README.md), and [`docs/technology-stack.md`](docs/technology-stack.md). Treat open architecture proposals as undecided until explicitly approved.
+Follow these repository instructions for every task. Before making changes, read [`CONSTRAINTS.md`](CONSTRAINTS.md), [`GLOSSARY.md`](GLOSSARY.md), and the matching convention in the table below. Do not weaken the constraints to make a change pass. For product, architecture, or implementation work, also read [`docs/architecture.md`](docs/architecture.md), [`docs/project-structure.md`](docs/project-structure.md), [`docs/backend-integration.md`](docs/backend-integration.md), relevant [architecture decision records (ADRs)](docs/adr/README.md), and [`docs/technology-stack.md`](docs/technology-stack.md). Treat open architecture proposals as undecided until explicitly approved.
 
 ## Delivery authority
 
@@ -28,7 +28,7 @@ If tasks run at the same time, use a separate worktree for each task.
 
 ## Conventions
 
-Read the matching convention before writing or updating an artifact. If a skill gives a different rule, template, or file path, follow the project convention.
+Read the matching convention before writing or updating an artifact. If a skill gives a different rule, template, or file path, follow the project convention and [`CONSTRAINTS.md`](CONSTRAINTS.md).
 
 The groups below follow the order of the work, from planning to delivery.
 
