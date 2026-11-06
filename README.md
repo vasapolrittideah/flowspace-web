@@ -24,7 +24,7 @@ Agents read and edit Figma designs through 2 MCP servers that need no paid Figma
 Framelink reads designs. [`.mcp.json`](.mcp.json) starts it with a pinned version, and it reads a Figma personal access token from your environment:
 
 1. In Figma, create a personal access token with read access to file content.
-2. Set the token as `FIGMA_API_KEY` in your shell profile. Do not put it in a repository file.
+2. Set the token as `FIGMA_API_KEY` in your shell profile, and start Claude Code from a shell that has it. Do not put it in a repository file. Without the token, only Framelink fails to start.
 
 Claude Talk to Figma edits designs. [`.mcp.json`](.mcp.json) starts its MCP server with a pinned version. Its WebSocket server and Figma plugin run from a local clone of its repository at the same version:
 
