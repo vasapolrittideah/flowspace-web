@@ -193,6 +193,7 @@ Keep these here until accepted; then create a focused ADR.
 - CORS, Content Security Policy, and other security-header values per environment.
 - TanStack Query defaults for deadlines, stale time, retry, and garbage collection.
 - AlignUI source provenance and upstream-update convention.
+- Design workflow: where the Figma design of each feature lives, how a specification links to it, and a mapping from AlignUI components in Figma to `src/components/ui/` that tells agents which code component implements each design component.
 - Sentry filtering, sampling, retention, release naming, and source-map access.
 - Supported browser matrix and measurable accessibility and performance thresholds.
 - CI gate ordering and which Playwright checks run before versus after preview deployment.

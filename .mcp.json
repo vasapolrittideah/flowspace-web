@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "framelink-figma": {
+      "command": "npx",
+      "args": ["-y", "figma-developer-mcp@0.13.2", "--stdio"],
+      "env": {
+        "FIGMA_API_KEY": "${FIGMA_API_KEY:-}"
+      }
+    },
+    "claude-talk-to-figma": {
+      "command": "npx",
+      "args": ["-y", "-p", "claude-talk-to-figma-mcp@1.0.0", "claude-talk-to-figma-mcp-server"]
+    }
+  }
+}
