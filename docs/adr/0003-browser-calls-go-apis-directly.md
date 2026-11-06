@@ -1,12 +1,8 @@
 # ADR-0003: The browser calls Go APIs without a backend-for-frontend
 
-## Status
+Date: 2026-09-15
 
-Accepted
-
-## Date
-
-2026-09-15
+Status: Accepted
 
 ## Context
 

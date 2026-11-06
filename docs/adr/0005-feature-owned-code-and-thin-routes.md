@@ -1,12 +1,8 @@
 # ADR-0005: Product code is feature-owned and routes stay thin
 
-## Status
+Date: 2026-09-15
 
-Accepted
-
-## Date
-
-2026-09-15
+Status: Accepted
 
 ## Context
 

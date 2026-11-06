@@ -1,12 +1,8 @@
 # ADR-0018: Only safe operations retry automatically
 
-## Status
+Date: 2026-09-15
 
-Accepted
-
-## Date
-
-2026-09-15
+Status: Accepted
 
 ## Context
 

@@ -1,12 +1,8 @@
 # ADR-0016: Partial updates send field masks
 
-## Status
+Date: 2026-09-15
 
-Accepted
-
-## Date
-
-2026-09-15
+Status: Accepted
 
 ## Context
 

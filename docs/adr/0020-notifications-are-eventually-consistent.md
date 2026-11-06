@@ -1,12 +1,8 @@
 # ADR-0020: Mutation success does not imply notification delivery
 
-## Status
+Date: 2026-09-15
 
-Accepted
-
-## Date
-
-2026-09-15
+Status: Accepted
 
 ## Context
 

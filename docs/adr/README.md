@@ -4,7 +4,7 @@ One record documents one accepted frontend architectural decision with meaningfu
 
 Unresolved proposals remain in the architecture document. Create a record only after a proposal is accepted. Dates are recording dates, not implementation or production-readiness dates.
 
-An accepted record is never deleted or rewritten. When a decision changes, add a new record that identifies the record it supersedes and update the old record's status.
+The [ADR convention](../conventions/adrs.md) defines the format of a record and its status values. An accepted record is never deleted or rewritten. When a decision changes, add a new record that identifies the record it supersedes and update the old record's status.
 
 | # | Decision | Status |
 | --- | --- | --- |
@@ -13,12 +13,12 @@ An accepted record is never deleted or rewritten. When a decision changes, add a
 | [0003](0003-browser-calls-go-apis-directly.md) | The browser calls Go APIs without a backend-for-frontend | Accepted |
 | [0004](0004-frontend-deploys-separately-from-backend.md) | The frontend deploys independently from backend infrastructure | Accepted |
 | [0005](0005-feature-owned-code-and-thin-routes.md) | Product code is feature-owned and routes stay thin | Accepted |
-| [0006](0006-public-oidc-with-pkce-for-browser-authentication.md) | Browser authentication uses public OIDC with PKCE | Superseded by ADR-0025 |
-| [0007](0007-authentication-tokens-stay-in-memory.md) | Authentication tokens remain in memory | Accepted, except session restoration through Keycloak superseded by ADR-0025 |
-| [0008](0008-protected-ui-waits-for-authentication.md) | Protected UI waits for resolved authentication | Accepted, except Keycloak initialization superseded by ADR-0025 |
+| [0006](0006-public-oidc-with-pkce-for-browser-authentication.md) | Browser authentication uses public OIDC with PKCE | Superseded by [0025](0025-flowspace-identity-replaces-keycloak-for-browser-authentication.md) |
+| [0007](0007-authentication-tokens-stay-in-memory.md) | Authentication tokens remain in memory | Accepted, except session restoration through Keycloak superseded by [0025](0025-flowspace-identity-replaces-keycloak-for-browser-authentication.md) |
+| [0008](0008-protected-ui-waits-for-authentication.md) | Protected UI waits for resolved authentication | Accepted, except Keycloak initialization superseded by [0025](0025-flowspace-identity-replaces-keycloak-for-browser-authentication.md) |
 | [0009](0009-auth-transitions-clear-scoped-state.md) | Authentication transitions constrain navigation and clear scoped state | Accepted |
 | [0010](0010-backend-services-authorize-requests.md) | Backend services remain the authorization authority | Accepted |
-| [0011](0011-browser-trust-boundaries-restrict-exposure.md) | Browser trust boundaries restrict origins and credential exposure | Accepted, except Keycloak redirect origins superseded by ADR-0025 |
+| [0011](0011-browser-trust-boundaries-restrict-exposure.md) | Browser trust boundaries restrict origins and credential exposure | Accepted, except Keycloak redirect origins superseded by [0025](0025-flowspace-identity-replaces-keycloak-for-browser-authentication.md) |
 | [0012](0012-frontend-types-come-from-openapi.md) | Frontend types derive from the backend OpenAPI contract | Accepted |
 | [0013](0013-one-shared-transport-boundary-for-feature-api-clients.md) | One shared transport boundary serves feature-owned API clients | Accepted |
 | [0014](0014-cap-ordinary-requests-at-five-seconds.md) | Request deadlines respect the backend cap | Accepted |

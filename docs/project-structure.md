@@ -28,6 +28,7 @@ This document defines where frontend code belongs and which dependency direction
 │   └── preview.ts
 ├── docs/
 │   ├── adr/
+│   ├── conventions/
 │   ├── architecture.md
 │   ├── backend-integration.md
 │   ├── project-structure.md
@@ -92,6 +93,7 @@ Framework and tool configuration stays where the owning tool expects it. Add fil
 | `e2e/` | Playwright tests and browser-level support code. |
 | `public/` | Static files served unchanged by Next.js. |
 | `docs/` | Architecture, integration, decision, and operating documentation. |
+| `docs/conventions/` | 1 convention file for each kind of artifact that people and agents write. |
 
 `src/lib/` is not a general-purpose utility directory. Each child represents a named external or cross-cutting boundary. A file with one consumer stays beside that consumer.
 
