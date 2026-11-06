@@ -26,11 +26,12 @@ Framelink reads designs. [`.mcp.json`](.mcp.json) starts it with a pinned versio
 1. In Figma, create a personal access token with read access to file content.
 2. Set the token as `FIGMA_API_KEY` in your shell profile. Do not put it in a repository file.
 
-Talk to Figma edits designs. Its WebSocket server and Figma plugin come only from its repository, so each developer runs it from a local clone at the reviewed commit:
+Claude Talk to Figma edits designs. [`.mcp.json`](.mcp.json) starts its MCP server with a pinned version. Its WebSocket server and Figma plugin run from a local clone of its repository at the same version:
 
-1. Clone `https://github.com/grab/cursor-talk-to-figma-mcp` outside this repository, and check out commit `ddd90f3a6d454ea0b2fc29f1b084f50fd062b880`.
-2. Run `bun install` in the clone.
-3. Run `bun socket` in the clone. The server listens on port 3055.
-4. In the Figma desktop app, select Plugins > Development > Import plugin from manifest, and select `src/cursor_mcp_plugin/manifest.json` in the clone.
-5. Add the MCP server only for your own checkout with `claude mcp add talk-to-figma --scope local -- bun run <clone path>/dist/server.js`.
-6. Run the plugin in Figma, and give the agent the channel name that the plugin shows.
+1. Clone `https://github.com/arinspunk/claude-talk-to-figma-mcp` outside this repository, and check out tag `v1.0.0`.
+2. Run `bun install` and then `bun run build` in the clone.
+3. Run `bun run socket` in the clone. The server listens on port 3055.
+4. In the Figma desktop app, select Plugins > Development > Import plugin from manifest, and select `src/claude_mcp_plugin/manifest.json` in the clone.
+5. Run the plugin in Figma, copy its channel ID, and tell the agent to connect to Figma on that channel.
+
+Do not use the `npx claude-talk-to-figma-mcp` launcher of its README. It clones the latest commit instead of the pinned version and can install Bun with a remote script.
