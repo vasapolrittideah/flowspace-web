@@ -1,12 +1,8 @@
 # ADR-0024: Mocked tests do not replace real API-boundary tests
 
-## Status
+Date: 2026-09-15
 
-Accepted
-
-## Date
-
-2026-09-15
+Status: Accepted
 
 ## Context
 

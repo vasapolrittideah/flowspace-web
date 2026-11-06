@@ -1,12 +1,8 @@
 # ADR-0014: Request deadlines respect the backend cap
 
-## Status
+Date: 2026-09-15
 
-Accepted
-
-## Date
-
-2026-09-15
+Status: Accepted
 
 ## Context
 

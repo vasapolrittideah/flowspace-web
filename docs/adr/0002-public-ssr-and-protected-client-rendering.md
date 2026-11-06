@@ -1,12 +1,8 @@
 # ADR-0002: Public pages render on the server and protected screens in the browser
 
-## Status
+Date: 2026-09-15
 
-Accepted
-
-## Date
-
-2026-09-15
+Status: Accepted
 
 ## Context
 

@@ -1,12 +1,8 @@
 # ADR-0001: Frontend lives in a standalone repository
 
-## Status
+Date: 2026-09-15
 
-Accepted
-
-## Date
-
-2026-09-15
+Status: Accepted
 
 ## Context
 

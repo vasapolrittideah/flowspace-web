@@ -1,12 +1,8 @@
 # ADR-0023: Backend validation and error semantics remain authoritative
 
-## Status
+Date: 2026-09-15
 
-Accepted
-
-## Date
-
-2026-09-15
+Status: Accepted
 
 ## Context
 

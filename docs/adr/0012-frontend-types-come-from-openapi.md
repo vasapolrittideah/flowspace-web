@@ -1,12 +1,8 @@
 # ADR-0012: Frontend types derive from the backend OpenAPI contract
 
-## Status
+Date: 2026-09-15
 
-Accepted
-
-## Date
-
-2026-09-15
+Status: Accepted
 
 ## Context
 

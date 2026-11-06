@@ -1,12 +1,8 @@
 # ADR-0021: One cache owns API resource state
 
-## Status
+Date: 2026-09-15
 
-Accepted
-
-## Date
-
-2026-09-15
+Status: Accepted
 
 ## Context
 

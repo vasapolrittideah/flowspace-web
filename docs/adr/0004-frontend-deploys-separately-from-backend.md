@@ -1,12 +1,8 @@
 # ADR-0004: The frontend deploys independently from backend infrastructure
 
-## Status
+Date: 2026-09-15
 
-Accepted
-
-## Date
-
-2026-09-15
+Status: Accepted
 
 ## Context
 

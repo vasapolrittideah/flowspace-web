@@ -1,12 +1,8 @@
 # ADR-0006: Browser authentication uses public OIDC with PKCE
 
-## Status
+Date: 2026-09-15
 
-Superseded by [ADR-0025](0025-flowspace-identity-replaces-keycloak-for-browser-authentication.md)
-
-## Date
-
-2026-09-15
+Status: Superseded by [ADR-0025](0025-flowspace-identity-replaces-keycloak-for-browser-authentication.md)
 
 ## Context
 

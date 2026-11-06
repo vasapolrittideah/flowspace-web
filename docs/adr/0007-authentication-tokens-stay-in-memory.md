@@ -1,12 +1,8 @@
 # ADR-0007: Authentication tokens remain in memory
 
-## Status
+Date: 2026-09-15
 
-Accepted, except session restoration through Keycloak superseded by [ADR-0025](0025-flowspace-identity-replaces-keycloak-for-browser-authentication.md)
-
-## Date
-
-2026-09-15
+Status: Accepted, except session restoration through Keycloak superseded by [ADR-0025](0025-flowspace-identity-replaces-keycloak-for-browser-authentication.md)
 
 ## Context
 

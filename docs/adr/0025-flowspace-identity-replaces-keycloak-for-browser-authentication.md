@@ -1,12 +1,8 @@
 # ADR-0025: Flowspace Identity replaces Keycloak for browser authentication
 
-## Status
+Date: 2026-11-06
 
-Accepted
-
-## Date
-
-2026-11-06
+Status: Accepted
 
 ## Context
 

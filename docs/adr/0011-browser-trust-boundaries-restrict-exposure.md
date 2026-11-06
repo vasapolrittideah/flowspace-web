@@ -1,12 +1,8 @@
 # ADR-0011: Browser trust boundaries restrict origins and credential exposure
 
-## Status
+Date: 2026-09-15
 
-Accepted, except Keycloak redirect origins superseded by [ADR-0025](0025-flowspace-identity-replaces-keycloak-for-browser-authentication.md)
-
-## Date
-
-2026-09-15
+Status: Accepted, except Keycloak redirect origins superseded by [ADR-0025](0025-flowspace-identity-replaces-keycloak-for-browser-authentication.md)
 
 ## Context
 

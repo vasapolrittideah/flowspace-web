@@ -1,12 +1,8 @@
 # ADR-0019: Version conflicts require deliberate reconciliation
 
-## Status
+Date: 2026-09-15
 
-Accepted
-
-## Date
-
-2026-09-15
+Status: Accepted
 
 ## Context
 

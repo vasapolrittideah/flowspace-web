@@ -1,12 +1,8 @@
 # ADR-0022: Client state stays with the narrowest owner
 
-## Status
+Date: 2026-09-15
 
-Accepted
-
-## Date
-
-2026-09-15
+Status: Accepted
 
 ## Context
 

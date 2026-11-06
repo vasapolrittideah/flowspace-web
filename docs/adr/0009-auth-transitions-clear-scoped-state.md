@@ -1,12 +1,8 @@
 # ADR-0009: Authentication transitions constrain navigation and clear scoped state
 
-## Status
+Date: 2026-09-15
 
-Accepted
-
-## Date
-
-2026-09-15
+Status: Accepted
 
 ## Context
 

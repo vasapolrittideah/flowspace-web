@@ -1,12 +1,8 @@
 # ADR-0013: One shared transport boundary serves feature-owned API clients
 
-## Status
+Date: 2026-09-15
 
-Accepted
-
-## Date
-
-2026-09-15
+Status: Accepted
 
 ## Context
 

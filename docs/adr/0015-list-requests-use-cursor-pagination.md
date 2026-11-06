@@ -1,12 +1,8 @@
 # ADR-0015: List requests use bounded cursor pagination
 
-## Status
+Date: 2026-09-15
 
-Accepted
-
-## Date
-
-2026-09-15
+Status: Accepted
 
 ## Context
 
