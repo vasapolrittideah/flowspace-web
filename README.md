@@ -37,3 +37,12 @@ Claude Talk to Figma edits designs. [`.mcp.json`](.mcp.json) starts its MCP serv
 5. Run the plugin in Figma, copy its channel ID, and tell the agent to connect to Figma on that channel.
 
 Do not use the `npx claude-talk-to-figma-mcp` launcher of its README. It clones the latest commit instead of the pinned version and can install Bun with a remote script.
+
+The Penpot MCP server reads and edits Penpot designs on Penpot Cloud. [`.mcp.json`](.mcp.json) connects to the remote server at `design.penpot.app`, and it reads your Penpot MCP key from your environment:
+
+1. In Penpot, open Your account > Integrations > MCP Server, turn on Status, and generate an MCP key. Penpot shows the key only 1 time.
+2. Set the key as `PENPOT_MCP_KEY` in your shell profile, and start Claude Code from a shell that has it. Do not put it in a repository file, because the key is part of the server URL.
+3. Open a design file in Penpot, and select File > MCP Server > Connect.
+4. Keep that Penpot tab open while the agent works. The agent can change only the page that has focus in that tab.
+
+If you generate a new key, Penpot revokes the old key. Update `PENPOT_MCP_KEY` after you do this.

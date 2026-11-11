@@ -77,6 +77,7 @@ Each section groups the tools for one concern. A row with no owning ADR shows a 
 | Design tool | Figma | Screen designs and the AlignUI component kit. | — |
 | Design reading for agents | Framelink MCP (`figma-developer-mcp`) | Read Figma layout data through the REST API for implementation; replacement must not need a paid Figma seat. | — |
 | Design editing for agents | Claude Talk to Figma MCP (`claude-talk-to-figma-mcp`) | Create and edit frames and components through a local Figma plugin and WebSocket server; replacement must not need a paid Figma seat. | — |
+| Penpot design access for agents | Penpot MCP server (remote, Penpot Cloud) | Read and edit Penpot designs through the Penpot plugin in an open browser tab; replacement must not need a paid Penpot plan. | — |
 
 ## Observability
 
